@@ -8,7 +8,7 @@ from datetime import datetime
 class ExcelProcessorApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("虚假类警告信数据处理工具 False Warning Letter Processor V4.0 ")
+        self.root.title("虚假类警告信数据处理工具 False Warning Letter Processor V1.0 ")
         self.root.geometry("720x420")
 
         # --- 变量 ---
@@ -120,8 +120,7 @@ class ExcelProcessorApp:
             
             self.update_status("正在应用核心处理逻辑... / Applying core processing logic...")
 
-            # --- 核心处理逻辑 (V4.0 优化版) ---
-            # 新的逻辑结构基于“处理意见”进行分类，并明确了判断的优先级，以解决旧版的逻辑冲突。
+            # --- 核心处理逻辑 (V1.0 优化版) ---
 
             # --- 5. 处理【虚假妥投】记录 ---
             
